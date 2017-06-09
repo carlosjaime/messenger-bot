@@ -4,11 +4,11 @@ const Bot = require('../../')
 const recognizeSong = require('./recognize')
 
 // Edit these with your tokens
-const FB_TOKEN = 'page access token'
-const FB_VERIFY = 'verification string'
-const ACR_ACCESS_KEY = 'ACR access key'
-const ACR_ACCESS_SECRET = 'ACR access secret'
-const ACR_HOST = 'eu-west-1.api.acrcloud.com'
+const FB_TOKEN = 'EAAPLOZBfYJ24BAK8jttZAtd5yjbvZBPYSd3Yiqw31gE5ZB7xV9vGOEmod6US7ZCcbDLHFHe76J2VK7wknis5G8DvtuGG3mXNtG2K1BdxW8MeyRwNDRhMq3UEwDpzDQVPVWbHwMSoTD6J9rVhECZAq0VZBSRRxgsjUf9vlfLdrBkwgZDZD'
+const FB_VERIFY = 'SONG-CANCION'
+const ACR_ACCESS_KEY = '7db0989be6d8254c255bf246e5a14fd1'
+const ACR_ACCESS_SECRET = 'OXaJmtuNRm62WMrVLzXigCAGzvZCkmolj4OPKrAv'
+const ACR_HOST = 'identify-ap-southeast-1.acrcloud.com'
 
 let bot = new Bot({
   token: FB_TOKEN,
